@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limited entry</title>
+    <style>
+        #fo {
+            margin: 0 auto;
+            width: 280px;
+            margin-top: 50px;
+            background-color: aqua;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        .modal {
+            background-color: rgb(0, 255, 85);
+            width: 300px;
+            height: 75px ;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: none;
+            
+        }
+        .io {
+            margin: 40px auto;
+            display: block;
+            width: 127px;
+            padding: 25px;
+        }
+        .spu {
+            display: none;
+        }
+        .spp {
+            display: none;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="modal"><span class="io"></span></div>
+    <div id="fo">
+    <form action="#">
+        <label for="we">user name</label>
+        <input type="text" id="we" onkeydown="funu()">
+        <br>
+        <span class="spu"></span>
+        <br> <br>
+        <label for="er">password</label>
+        <input type="password" id="er" onkeydown="funp()">
+        <br>
+        <span class="spp"></span>
+        <br><br>
+        <button style="margin-left: 100px;" >login</button>
+    </form>
+    </div>  
+    <script src="./js/app.js"></script>
+</body>
+</html>
